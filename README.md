@@ -2,6 +2,8 @@
 
 ## Datasets
 
+The data used for benchmarking are open-source datasets from the Dutch government available at [PDOK](https://www.pdok.nl/data). [National datasets](#netherlands) were used to test the limits of the software and smaller versions for the province [Utrecht](#utrecht) and municipality [Enschede](#enschede) were utilized to be able to benchmark long-running operations, which were not feasible otherwise. The datasets utilized are the [land use](https://www.pdok.nl/geo-services/-/article/cbs-bestand-bodemgebruik) (polygon), the [road network](https://www.pdok.nl/geo-services/-/article/nationaal-wegen-bestand-nwb-) (line), and the [address points](https://www.pdok.nl/introductie/-/article/adress-1) (point).
+
 ### Enschede
 - [Extent](https://crib.utwente.nl/data/gis-benchmark/enschede/extent.gpkg)
 - [Point (84.4K features, 15 MB)](https://crib.utwente.nl/data/gis-benchmark/enschede/point.gpkg)
